@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b35aac5bef5740828f95e6c4a611da57, type: 3}
+  m_Name: Consumables
+  m_EditorClassIdentifier: 
+  consumablesPrefabsList:
+  - {fileID: 8432793772685771352, guid: ce0ad5b5efa7f0b429075913580814e0, type: 3}
+  - {fileID: 7529534077228710381, guid: 44b2e159829ac4840993647826c777b5, type: 3}
