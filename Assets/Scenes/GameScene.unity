@@ -2626,7 +2626,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 319317704769277497, guid: 7a821731a9f634a4cb5f96e118079b23, type: 3}
       propertyPath: hitLayerMask.m_Bits
-      value: 320
+      value: 448
       objectReference: {fileID: 0}
     - target: {fileID: 4886732542311094063, guid: 7a821731a9f634a4cb5f96e118079b23, type: 3}
       propertyPath: m_LocalPosition.x

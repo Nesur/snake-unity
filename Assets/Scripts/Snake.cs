@@ -43,8 +43,6 @@ namespace Snake {
         private const float PeriodicMovementIncreaseTimerMax = 1f;
 
         private const float MaxMovementSpeed = 0.1f;
-        private const int MaxPlayGroundWidth = 25;
-        private const int MaxPlayGroundHeight = 25;
 
         private int _bodyLength;
         private MoveDirection _moveDirection;
@@ -109,7 +107,6 @@ namespace Snake {
         void Update() {
             HandlePeriodicMovementIncrease();
             HandleMovement();
-            HandleMovingOutOfTheWalls();
         }
 
         private void HandlePeriodicMovementIncrease() {
@@ -121,15 +118,6 @@ namespace Snake {
             if (_periodicMovementIncreaseTimer <= 0) {
                 _periodicMovementIncreaseTimer = PeriodicMovementIncreaseTimerMax;
                 movementTimerMax -= Time.deltaTime;
-            }
-        }
-
-        private void HandleMovingOutOfTheWalls() {
-            if (transform.position.x < -MaxPlayGroundWidth ||
-                transform.position.x > MaxPlayGroundWidth ||
-                transform.position.z < -MaxPlayGroundHeight ||
-                transform.position.z > MaxPlayGroundHeight) {
-                Die();
             }
         }
 
