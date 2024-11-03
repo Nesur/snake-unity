@@ -24,7 +24,7 @@ namespace Snake {
         /// <summary>
         /// Max interval for moving snake
         /// </summary>
-        [SerializeField] private float movementTimerMax = .7f;
+        [SerializeField] private float movementTimerMax = .5f;
 
         /// <summary>
         /// Timer for moving the snake
